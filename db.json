@@ -1,14 +1,14 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "title": "Post 1", "body": "First post." },
+    { "id": 2, "title": "Post 2", "body": "Some text." },
+    { "id": 3, "title": "Post 3", "body": "Cat's picture"}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 2, "body": "So cute =)", "postId": 3 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "TestProfile"
   }
 }
